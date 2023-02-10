@@ -1,4 +1,119 @@
-fg
-sfdg
-sfdgfg
-fdsg
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset ="utf-8">
+	<title>Factura</title>
+
+<link rel="stylesheet" href="factura.css">
+	
+</head>
+
+<body>
+
+	<header>
+		<img src="starfuerte.jpg">
+			<div class="datos">
+				<p>Industrias Starfuerte</br>
+				CIF:123456789-G</br>
+				C/Forjadores s/n</br>
+				Isla del Hierro</br>
+				Tenerife</br>
+				España</p>
+			</div>
+			
+			<div class="facturaa">
+				<h1>FACTURA</h1>
+				<form method="get" action="	">
+					Numero: <input type="text" readonly name="numero" value="1" ><br>
+					Fecha: <input type="date" >
+				</form>
+			</div>
+	</header>
+	
+	
+		<div class="conteiner">
+			<h1>Datos del Cliente</h1>
+			<form action=" " method="get">
+				Cliente: <input type="text" name="cliente" value="Tim Sam">
+				CIF: <input type="text" name="cif" value="D36609337"><br>
+				Direccion: <input type="text" name="direccion" value="Pennsylvania Avenue, 1600">
+				Provincia: <input type="text" name="provincia" value="Washinghton"><br>
+				Pais: <input type="text" name="pais" value="Estados Unidos">
+			</form>
+		</div>
+		
+		<div class="conteiner2">
+			<h1>Lineas de factura</h1>
+			<div class="tablas">
+				<table border="1">
+					<tr>
+						<th>Cantidad</th>
+						<th>Articulo</th>
+						<th>Precio</th>
+						<th>Subtotal</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>ARIXII-Armadura de oro reluciente</td>
+						<td>350.000$</td>
+						<td>350.000$</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>E5002-Escudo antiproyectiles</td>
+						<td>50.000$</td>
+						<td>150.000$</td>
+					</tr>					
+				</table>
+								
+					<div class="tabla2">			
+								<table border="1">
+									<tr>
+										<td>Base Imposible</td>
+										<td>500.000$</td>
+									</tr>
+									<tr>
+										<td>Descuento</td>
+										<td>0</td>
+									</tr>
+									<tr>
+										<td>IVA 0%</td>
+										<td>500.000$</td>
+									</tr>
+									<tr>
+										<td>Total Neto</td>
+										<td>600.000$</td>
+									</tr>									
+								</table>
+					</div>			
+				</div>		
+		</div>
+	
+<footer>
+	<h5>Forma de pago y Datos bancarios</h5>
+	<div class="check">
+		<form action="" method="get">
+			Pago al contado <input type="checkbox" name="contado"><br>
+			Pago efectivo <input type="checkbox" name="efectivo"><br>
+			Pago con tarjeta <input type="checkbox" name="tarjeta"><br>
+		</form>
+	</div>
+	
+				<div class="datosf">
+					<form action="" method="get">
+						Entidad: <input type="text" name="texto"><br>
+						N de cuenta: <input type="text" name="cuenta"><br><br>
+					
+				<button type="submit">
+					Enviar
+				</button>
+				
+				
+					</form>
+				</div>	
+</footer>
+	
+</body>
+
+</html>
